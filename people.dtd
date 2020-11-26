@@ -1,0 +1,9 @@
+<!ELEMENT  person(Employee)+ >
+<!ELEMENT Employee(name,age,salary,address)>
+<!ELEMENT name(#PCDATA)>
+<!ELEMENT age(#PCDATA)>
+!ELEMENT desgination(#PCDATA)>
+<!ELEMENT  salary(#PCDATA)>
+<!ELEMENT address(#PCDATA)>
+<!ELEMENT telephone(#PCDATA)>
+<!ATTLIST Employee Employeed CDATA "YES">
